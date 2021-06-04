@@ -1,0 +1,28 @@
+Windows Registry Editor Version 5.00
+
+; associate md file
+[HKEY_CLASSES_ROOT\.md]
+@="mdfile"
+[HKEY_CLASSES_ROOT\mdfile]
+@="Markdown File"
+[HKEY_CLASSES_ROOT\mdfile\DefaultIcon]
+@="C:\\ProgramData\\scoop\\apps\\typora\\current\\Typora.exe"
+[HKEY_CLASSES_ROOT\mdfile\Shell\Open\Command]
+@="\"C:\\ProgramData\\scoop\\apps\\typora\\current\\Typora.exe\" \"%1\""
+
+; menu open wih list
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts]
+
+; directory
+[HKEY_LOCAL_MACHINE\Software\Classes\Directory\shell\Open with &Typora]
+@="Open with &Typora"
+"Icon"="C:\\ProgramData\\scoop\\apps\\typora\\current\\Typora.exe"
+[HKEY_LOCAL_MACHINE\Software\Classes\Directory\shell\Open with &Typora\command]
+@="\"C:\\ProgramData\\scoop\\apps\\typora\\current\\Typora.exe\" \"%1\""
+
+; directory background
+[HKEY_LOCAL_MACHINE\Software\Classes\Directory\Background\shell\Open with &Typora]
+@="Open with &Typora"
+"Icon"="C:\\ProgramData\\scoop\\apps\\typora\\current\\Typora.exe"
+[HKEY_LOCAL_MACHINE\Software\Classes\Directory\Background\shell\Open with &Typora\command]
+@="\"C:\\ProgramData\\scoop\\apps\\typora\\current\\Typora.exe\" \"%V\""

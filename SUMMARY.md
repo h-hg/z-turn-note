@@ -6,7 +6,7 @@
   - [字体](win/fonts.md)
   - [开发环境](win/coding.md)
   - WSL
-    - [安装](win/wsl/install.md)
+    - [启动](win/wsl/startup.md)
     - [自定义安装](win/wsl/custom-install.md)
     - [LxRunOffline](win/wsl/lxrunoffline.md)
     - [与 Win 交互](win/wsl/interact-with-win.md)
@@ -14,7 +14,7 @@
       - [安装](win/wsl/archlinux/install.md)
       - [SSHD](win/wsl/archlinux/sshd.md)
   - [SSHD](win/sshd.md)
-  - [优化](win/win-optimization.md)
+  - [优化](win/optimization.md)
 - Archlinux
   - [CLI](archlinux/cli.md)
   - [包管理](archlinux/pkg.md)

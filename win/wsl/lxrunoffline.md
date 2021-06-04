@@ -25,4 +25,3 @@ lxrunoffline d -n name -d path -N new_name
 ```bash
 lxrunoffline rg -n name -d path
 ```
-

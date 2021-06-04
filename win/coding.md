@@ -14,6 +14,7 @@ lxrunoffline \
 说明：
 
 - lxrunoffline：第三方增强的 WSL 工具
+- windows-terminal：可能会遇到无法启动，建议在 MS store 里面安装
 
 已弃用：
 
@@ -35,7 +36,15 @@ sudo scoop install -g PyCharm-portable
 
 ## C / C++
 
-IDE 看个人需求吧
+```bash
+sudo scoop install -g \
+gcc \
+gdb \
+cmale \
+clang
+```
+
+IDE
 
 ```bash
 sudo scoop install -g \
@@ -44,3 +53,9 @@ CLion-portable \
 
 - [QT](https://www.qt.io/)
 
+## 前端
+
+```bash
+sudo scoop install -g \
+nodejs
+```

@@ -1,5 +1,7 @@
 # WSL 自定义安装位置
 
+## 手动
+
 1. 下载离线的 WSL appx 镜像。如可从[微软官方指定的版本](https://docs.microsoft.com/en-us/windows/wsl/install-manual)进行下载，这里以 Ubuntu 18.04 为例
 2. 将 appx 改为 zip，并解压到你想要安装的目录。
 
@@ -25,7 +27,7 @@ $userenv = [System.Environment]::GetEnvironmentVariable("Path", "User")
 [System.Environment]::SetEnvironmentVariable("PATH", $userenv + ";J:\Ubuntu18.04onWindows_1804", "User")
 ```
 
-## LXRUNOFFLINE
+## LxRunOffline
 
 1. 将 appx 改为 zip，并解压。
 2. `lxrunoffline i -n name -d path -f *.tar.gz -s`
@@ -37,6 +39,6 @@ $userenv = [System.Environment]::GetEnvironmentVariable("Path", "User")
 
 如果是安装 ArchLinux 的话，将命令改为 `lxrunoffline i -n name -d path -f *.tar.gz -r root.x86_64 -s`，更多详情见 [LxRunOffline wiki](https://github.com/DDoSolitary/LxRunOffline/wiki)
 
-# LXRUNOFFLINE
+## 参考资料
 
-[wsl 相关的教程](https://www.junmajinlong.com/categories/Others/wsl/)
+- [wsl 相关的教程](https://www.junmajinlong.com/categories/Others/wsl/)

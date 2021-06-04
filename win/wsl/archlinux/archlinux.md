@@ -48,55 +48,7 @@ sudo vim /etc/sudoers
 .\Arch.exe config --default-user h-hg
 ```
 
-## 软件源
-
-重新进入 Arch
-
-### 修改镜像
-
-```bash
-sudo vim /etc/pacman.d/mirrorlist
-```
-
-直接删除你想要的源前面的注释即可
-
-```bash
-sudo pacman -Syy
-```
-
-初始化 keyring
-
-```bash
-sudo pacman-key --init
-sudo pacman-key --populate
-```
-
-更新系统
-
-```bash
-sudo pacman -Syu
-```
-
-### Archlinuxcn
-
-```bash
-sudo vim /etc/pacman.conf
-```
-
-加入如下内容
-
-```text
-[archlinuxcn]
-Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
-```
-
-安装 GPG key
-
-```bash
-sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring
-```
-
-### Aur
+## Aur
 
 安装 yay 并设置镜像
 

@@ -25,7 +25,7 @@ joplin \
 其他安装方式：
 
 - Microsoft Office
-- [WPS PDF](https://wpspdf.cn/)：sandboxie 安装
+- [WPS PDF](https://wpspdf.cn/)：Sandboxie Plus 安装
 
 说明：
 
@@ -37,7 +37,7 @@ joplin \
 已弃用：
 
 - [PDF4](https://en.pdf24.org/)：换成 WPS PDF
-- Starrea: MS store 安装，换成 WPS PDF
+- Starrea: MS store 安装，换成 WPS PDF 或 sumatrapdf
 
 ## 科研
 
@@ -76,7 +76,7 @@ zoom \
 
 其他安装方式：
 
-- [腾讯会议](https://meeting.tencent.com/)：sandboxie 安装
+- [腾讯会议](https://meeting.tencent.com/)：Sandboxie Plus 安装
 
 已弃用：
 
@@ -84,10 +84,15 @@ zoom \
 
 ## 网络
 
+```bash
+sudo scoop install -g \
+googlechrome
+```
+
 其他安装方式：
 
-- [迅雷](https://www.xunlei.com/)：sandboxie 安装
-- [百度网盘](https://pan.baidu.com/)：sandboxie 安装
+- [迅雷](https://www.xunlei.com/)：Sandboxie Plus 安装
+- [百度网盘](https://pan.baidu.com/)：Sandboxie Plus 安装
 
 已弃用：
 
@@ -147,14 +152,19 @@ QuickLook \
 
 已弃用：
 
-- geekuninstaller：将软件安装到 sandboxie 即可
+- geekuninstaller：将软件安装到 Sandboxie Plus 即可
 
 ## 聊天
 
+```bash
+sudo scoop install -g \
+telegram
+```
+
 其他安装方式：
 
-- [Tim](https://office.qq.com/)：sandboxie 安装
-- [wechat](https://weixin.qq.com/)：sandboxie 安装
+- [Tim](https://office.qq.com/)：Sandboxie Plus 安装
+- [wechat](https://weixin.qq.com/)：Sandboxie Plus 安装
 
 ### 其他
 
@@ -168,6 +178,7 @@ windows-iso-downloader \
 其他安装方式：
 
 - [向日葵](https://sunlogin.oray.com/)
+- [ToDesk](https://www.todesk.com/)
 
 已弃用：
 
@@ -177,6 +188,6 @@ windows-iso-downloader \
 
 其他安装方式：
 
-- sandboxie
+- [Sandboxie Plus](https://sandboxie-plus.com/)
 - virtualbox
 - vmware

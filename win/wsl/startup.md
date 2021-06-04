@@ -1,4 +1,4 @@
-# WSL 安装教程
+# 启动 WSL 功能
 
 本笔记记录的都是 **WSL 2** 的内容，而不是 WSL 1。
 
@@ -19,7 +19,8 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 ```poweshell
 wsl --set-default-version 2
-·``
+```
+
 参考资料
 
 - [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)

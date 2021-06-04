@@ -1,4 +1,4 @@
-## sshd
+# sshd
 
 安装
 
@@ -33,4 +33,3 @@ sudo pacman -S genie-systemd[arhclinuxcn]
 sudo genie -c systemctl enable sshd.service
 sudo genie -c systemctl start sshd.service
 ```
-

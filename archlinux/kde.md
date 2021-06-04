@@ -79,6 +79,14 @@ systemctl enable ssdm NetworkManager
 - ssdm：KDE 默认的“启动界面”
 - NetworkManager：KDE 默认网络管理器
 
+## 蓝牙
+
+如果你有蓝牙设备，需要启用蓝牙服务。随后在系统设置中进行添加设备与连接即可。
+
+```bash
+sudo systemctl enable --now bluetooth
+```
+
 ## 额外 KDE 应用
 
 - ark：KDE 压缩管理器

@@ -22,5 +22,4 @@
   - [输入法](archlinux/input.md)
   - [字体](archlinux/fonts.md)
   - [开发环境](archlinux/coding.md)
-  - [CLI 软件](archlinux/cli-software.md)
-  - [GUI 软件](archlinux/gui-software.md)
+  - [常用软件](archlinux/software.md)

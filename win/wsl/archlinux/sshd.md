@@ -10,7 +10,7 @@ sudo vim /etc/ssh/sshd_config
 修改如下几个即可
 
 ```text
-Port 2222                                 # ssh 端口号
+Port 22                                   # ssh 端口号
 PermitRootLogin yes                       # 是否可以用 root 账号登陆
 PubkeyAuthentication yes                  # 是否可以用密钥登录
 AuthorizedKeysFile .ssh/authorized_keys   # 密钥位置

@@ -89,8 +89,10 @@ sudo pacman -S \
 visual-studio-code-bin \
 neovim \
 python-pynvim \
+xclip \
 vim \
 ```
 
 - visual-studio-code-bin<sup>archlinuxcn</sup>
 - python-pynvim： neovim 的 python 支持
+- xclip：neovim 系统剪切板支持

@@ -91,12 +91,19 @@ netease-cloud-music \
 
 - netease-cloud-music<sup>archlinuxcn</sup>
 
+```bash
+yay -S
+lx-music
+```
+
 ## 网络
 
 ```bash
 sudo pacman -S \
 google-chrome \
 ```
+
+- google-chrome<sup>archlinuxcn</sup>
 
 ### 代理
 
@@ -147,8 +154,6 @@ frpc
 yay -S todesk-bin
 ```
 
-- google-chrome<sup>archlinuxcn</sup>
-
 ### 通讯
 
 ```bash
@@ -162,6 +167,7 @@ linuxqq \
 ## 其他
 
 ```bash
+sudo pacman -S
 freeplane \
 keepass \
 ventoy \

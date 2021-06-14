@@ -1,5 +1,7 @@
-- 启动U盘
-- BIOS
+- [简介](README.md)
+- 系统安装
+  - [启动U盘](os-install/bootable-usb-driver.md)
+  - [BIOS](os-install/bios.md)
 - Win 10
   - [scoop](win/scoop.md)
   - [常用软件](win/software.md)
@@ -23,3 +25,14 @@
   - [字体](archlinux/fonts.md)
   - [开发环境](archlinux/coding.md)
   - [常用软件](archlinux/software.md)
+- 软件
+  - [everything](software/everything/index.md)
+  - [noteplusplus](software/notepadplusplus/index.md)
+  - latex
+  - [typora](software/typora/index.md)
+  - vim
+    - 插件
+      - [markdown-preview.nvim](software/vim/plugins/markdown-preview.nvim.md)
+      - [vim-commentary](software/vim/plugins/vim-commentary.md)
+      - [vimtex](software/vim/plugins/vimtex.md)
+      

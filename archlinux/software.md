@@ -19,8 +19,15 @@ ranger \
 pz7ip \
 highlight \
 fzf \
+fd \
 cloc \
+the_silver_searcher \
+stow \
 ```
+
+- fd：查找工具，辅助 fzf
+- the_silver_searcher：ag，查找工具，辅助 fzf
+- stow：配置文件、软件的软链接管理工具
 
 ## 科研
 
@@ -35,6 +42,10 @@ zotero
 yay -S \
 copytranslator-appimage \
 cajviewer-appimage
+```
+
+```shell
+npm i -g fanyi
 ```
 
 ## 文档
@@ -56,9 +67,13 @@ pdf
 ```bash
 sudo pacman -S \
 zathura \
+zathura-pdf-mupdf \
+zathura-pdf-djvu \
 masterpdfeditor \
 ```
 
+- zathura-pdf-mupdf：为 zathura 提供PDF, ePub, and OpenXPS 支持
+- zathura-pdf-djvu：为 zathura 提供 DjVu 支持
 - masterpdfeditor<sup>archlinuxcn</sup>
 
 ## 图像
@@ -123,6 +138,8 @@ v2ray
 sudo pacman -S
 megasync \
 rclone \
+freefilesync \
+syncthing \
 ```
 
 - megasync<sup>archlinuxcn</sup>
@@ -171,7 +188,11 @@ sudo pacman -S
 freeplane \
 keepass \
 ventoy \
+screenkey \
+figlet \
 ```
+
+- figlet：字符画
 
 ```bash
 yay -S \

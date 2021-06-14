@@ -7,3 +7,7 @@
 - [Edge Blocker](https://www.sordum.org/edge-blocker)：关闭 Edge
 
 说明：使用了 Windows update blocker 关闭更新可能会导致 Windows feature、MS store 等组件无法正常下载和安装，如遇到上述情况，先开启更新，正常使用后，再关闭更新。
+
+## 美化
+
+一个专注于魔改的网站：[致美化](https://zhutix.com)

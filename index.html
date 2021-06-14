@@ -1,22 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
+
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>折腾笔记l</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <!-- docsify-katex -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+  <!-- docsify-sidebar-collapse -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" /> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 </head>
+
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: "折腾日记",
+      repo: 'https://github.com/h-hg/z-turn-note',
+      nameLink: {
+        "/": "/z-turn-note",
+      },
+      // repo: "https://github.com/h-hg/oj-solution",
+      auto2top: true,
+      // relativePath: true,
+      homepage: "README.md",
+      // sidebar
+      loadSidebar: "SUMMARY.md",
+      //maxLevel: 4,
+      subMaxLevel: 6,
+      //search
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: "auto",
+        // Localization
+        placeholder: {
+          "/": "搜索"
+        },
+        // Localization
+        noData: {
+          "/": "找不到结果",
+        },
+        // Headline depth, 1 - 6
+        depth: 6,
+        hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+        // To avoid search index collision
+        // between multiple websites under the same domain
+        namespace: "website-1",
+      },
+      // docsify-copy-code
+      copyCode: {
+        buttonText: "复制",
+        errorText: "失败",
+        successText: "成功"
+      },
+      // docsify-pagination
+      pagination: {
+        previousText: "上一章节",
+        nextText: "下一章节",
+        crossChapter: true,
+        crossChapterText: true,
+      }
     }
   </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Docsify -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+  <!-- search -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- docsify-copy-code: code copy button -->
+  <!-- url: https://github.com/jperasmus/docsify-copy-code -->
+  <script src="https://unpkg.com/docsify-copy-code"></script>
+
+  <!-- code heighlighting -->
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-vim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@latest/components/prism-bash.min.js"></script>
+
+  <!-- docsify-katex: latex -->
+  <!-- url: https://github.com/upupming/docsify-katex -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+
+  <!-- docsify-pagination: pagination -->
+  <!-- url: https://github.com/imyelo/docsify-pagination -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <!-- docsify-sidebar-collapse -->
+  <!-- url: https://github.com/iPeng6/docsify-sidebar-collapse -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+  <!-- Offline Mode: Progressive Web Apps (PWA) -->
+  <!-- url: https://docsify.js.org/#/pwa -->
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
 </body>
+
 </html>

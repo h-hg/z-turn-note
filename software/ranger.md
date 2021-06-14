@@ -30,3 +30,7 @@ ranger --copy-config=all
 找一下 fzf 的插件，好像也是有的：在那个 custom-command
 
 zh 显示隐藏文件
+
+## 参考
+
+- [ranger 用法总结](http://www.huangpan.net/posts/ji-ke/2019-08-21-ranger.html)

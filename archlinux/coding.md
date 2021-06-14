@@ -89,10 +89,12 @@ sudo pacman -S \
 visual-studio-code-bin \
 neovim \
 python-pynvim \
+neovim-remote \
 xclip \
 vim \
 ```
 
 - visual-studio-code-bin<sup>archlinuxcn</sup>
 - python-pynvim： neovim 的 python 支持
+- neovim-remote<sup>archlinuxcn</sup>：neovim 外部控制的 python 包
 - xclip：neovim 系统剪切板支持

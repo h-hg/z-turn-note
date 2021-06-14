@@ -49,12 +49,14 @@ scoop bucket add jetbrains
 scoop bucket add nerd-fonts
 scoop bucket add dorado https://github.com/chawyehsu/dorado
 scoop bucket add mochi https://hub.fastgit.org/Qv2ray/mochi
+scoop bucket add wsl https://git.irs.sh/KNOXDEV/wsl
 ```
 
 - jetbrains：jetbrains 一家的产品
 - nerd-fonts：各种字体
 - dorado：一个国人维护的仓库，主要有国产软件
 - mochi：qv2ray 官方维护的仓库，主要是提供国内镜像加速的 qv2ray 的相关软件
+- wsl：wsl
 
 ## 代理
 

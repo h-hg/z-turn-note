@@ -106,6 +106,71 @@ Ctrl+b q：显示窗格编号。
 
 vim 主题失效的问题：[lose vim colorscheme in tmux mode](https://stackoverflow.com/questions/10158508/lose-vim-colorscheme-in-tmux-mode)
 
+## oh-my-tmux
+
+|命令|解释|备注|
+|:-:|:-:|:-:|
+|`<C-b>`|前缀键|`<prefix>`|
+|`<C-a>`|前缀键|`<prefix>`|
+|`<prefix>e`|编辑 tmux 配置文件||
+|`<prefix>r`|重新加载配置文件||
+|`<C-l>`|清空屏幕以及 tmux 历史||
+
+### 会话
+
+|命令|解释|备注|
+|:-:|:-:|:-:|
+|`<prefix><C-c>`|新建新的会话||
+|`<prefix><C-f>`|查找并切换会话||
+
+### 窗口
+
+|命令|解释|备注|
+|:-:|:-:|:-:|
+|`<prefix><C-h>`|切换前一个窗口||
+|`<prefix><C-l>`|切换下一个窗口||
+|`<prefix><Tab>`|返回上一个激活的窗口||
+
+### 窗格
+
+|命令|解释|备注|
+|:-:|:-:|:-:|
+|`<prefix>-`|水平切分窗口||
+|`<prefix>_`|垂直切分窗口||
+|`<prefix>h`|跳转到左边窗格||
+|`<prefix>j`|跳转到下边窗格||
+|`<prefix>k`|跳转到上边窗格||
+|`<prefix>l`|跳转到右边窗格||
+|`<prefix>H`|窗格竖线左移|改变窗格大小|
+|`<prefix>J`|窗格横线下移|改变窗格大小|
+|`<prefix>K`|窗格横线上移|改变窗格大小|
+|`<prefix>L`|窗格竖线移|改变窗格大小|
+|`<prefix>+`|最大化当前窗格为窗口||
+|`<prefix>m`|切换鼠标模式||
+|`<prefix>U`|启动 Urlview||
+|`<prefix>F`|启动 Facebook PathPicker||
+
+### 复制粘帖
+
+|命令|解释|备注|
+|:-:|:-:|:-:|
+|`<prefix><Enter>`|进入复制模式||
+|`<prefix>b`|列出 paste-buffers||
+|`<prefix>p`|从 paste-buffer 中找到最新的 buffer 来进行粘帖||
+|`<prefix>P`|从 paste-buffer 中找到最新的 buffer 来进行粘帖||
+
+### Vim 模式
+
+|命令|解释|备注|
+|:-:|:-:|:-:|
+|`v`|||
+|`<C-v>`|||
+|`H`|||
+|`L`|||
+|`y`|||
+|`<Esc>`|||
+
 ## 参考资料
 
-[阮一峰 Tmux 使用教程](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
+- [阮一峰 Tmux 使用教程](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
+- [Tmux 配置：打造最适合自己的终端复用工具](https://www.cnblogs.com/zuoruining/p/11074367.html)

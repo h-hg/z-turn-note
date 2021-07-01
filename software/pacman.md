@@ -35,6 +35,7 @@
 3. 不显示多余信息：`pacman -Qq`
 4. 查询本地安装的软件：`pacman -Qs [name]`
 5. 查询不再需要的依赖：`pacman -Qdt`
+6. 显示软件详细信息：`pacman -Qi [name]`
 
 `e`: `--explicit`
 

@@ -7,7 +7,7 @@
 
 ## 基本字体
 
-Noto是Google所开发的开源字体家族，以OFL许可证授权，旨在涵盖所有Unicode区块。
+Noto 是 Google 所开发的开源字体家族，以 OFL 许可证授权，旨在涵盖所有 Unicode 区块。
 
 ```bash
 sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
@@ -20,8 +20,12 @@ sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
 
 ## 中文字体
 
-[en](https://wiki.archlinux.org/index.php/Localization/Chinese#Fonts)
-[en](https://wiki.archlinux.org/index.php/Localization_(简体中文)/Simplified_Chinese_(简体中文)#修正简体中文显示为异体（日文）字形)
+参考自
+
+- [Chinese Fonts](https://wiki.archlinux.org/index.php/Localization/Chinese#Fonts)
+- [中文字体](https://wiki.archlinux.org/index.php/Localization_(简体中文)/Simplified_Chinese_(简体中文)#修正简体中文显示为异体（日文）字形)
+
+主要有如下：
 
 - 思源字体：Adobe与Google合资开发的，囊括简体中文、繁体中文、日文、韩文字形和来自 Source Sans 字体家族的拉丁文、希腊文和西里尔文字形的 OpenType 字体。
   - [adobe-source-han-sans-otc-fonts](https://archlinux.org/packages/?name=adobe-source-han-sans-otc-fonts) - 思源黑体，无衬线字体。
@@ -41,9 +45,8 @@ nerd-fonts-cascadia-code \
 nerd-fonts-fira-code \
 ```
 
+说明：
+
 - nerd-fonts-jetbrains-mono<sup>archlinuxcn</sup>
 - nerd-fonts-cascadia-code<sup>archlinuxcn</sup>
 - nerd-fonts-fira-code<sup>archlinuxcn</sup>
-
-- [Iosevka](https://be5invis.github.io/Iosevka/) ([ttf-iosevka](https://aur.archlinux.org/packages/ttf-iosevka/)AUR) ⟶ – slender sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono, designed to be the ideal font for programming; it supports programming ligatures and over 2000 latin, greek, cyrillic, phonetic and PowerLine glyphs
-- 

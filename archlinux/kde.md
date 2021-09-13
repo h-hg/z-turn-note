@@ -1,4 +1,4 @@
-# Archlinux KDE
+# KDE
 
 本文介绍如何在 Archlinux 下安装 KDE
 

@@ -2,37 +2,80 @@
 - 系统安装
   - [启动U盘](os-install/bootable-usb-driver.md)
   - [BIOS](os-install/bios.md)
-- Win 10
-  - [scoop](win/scoop.md)
+- Windows
+  - [简介](win/index.md)
+  - [Scoop 包管理器](win/scoop.md)
   - [常用软件](win/software.md)
   - [字体](win/fonts.md)
   - [开发环境](win/coding.md)
+  - [SSHD 服务](win/sshd.md)
+  - [优化](win/optimization.md)
   - WSL
-    - [启动](win/wsl/startup.md)
-    - [自定义安装](win/wsl/custom-install.md)
+    - [启用](win/wsl/startup.md)
+    - [自定义安装位置](win/wsl/custom-install.md)
     - [LxRunOffline](win/wsl/lxrunoffline.md)
     - [与 Win 交互](win/wsl/interact-with-win.md)
     - ArchLinux
       - [安装](win/wsl/archlinux/install.md)
       - [SSHD](win/wsl/archlinux/sshd.md)
-  - [SSHD](win/sshd.md)
-  - [优化](win/optimization.md)
 - Archlinux
-  - [CLI](archlinux/cli.md)
+  - [简介](archlinux/index.md)
+  - [基础安装](archlinux/cli.md)
+  - [Pacman 基本使用](archlinux/pacman.md)
   - [包管理](archlinux/pkg.md)
-  - [KDE](archlinux/kde.md)
+  - [KDE 桌面环境](archlinux/kde.md)
   - [输入法](archlinux/input.md)
   - [字体](archlinux/fonts.md)
   - [开发环境](archlinux/coding.md)
   - [常用软件](archlinux/software.md)
-- 软件
-  - [everything](software/everything/index.md)
-  - [noteplusplus](software/notepadplusplus/index.md)
-  - latex
-  - [typora](software/typora/index.md)
-  - vim
+- 软件配置与使用
+  - [Everything](software/everything/index.md)
+  - [Notepad++](software/notepadplusplus/index.md)
+  - [Typora](software/typora/index.md)
+  - Sumtrapdf（todo）
+  - [Winows Terminal](software/windows-terminal/index.md)
+  - [vscode](software/vscode/index.md)
+  - [Sandboxie](software/sandboxie.md)
+  - [Zotero](software/zotero.md)
+  - [Jupyter](software/jupyter.md)
+  - [Conda](software/conda.md)
+  - [frp](software/frp.md)
+  - [Tmux](software/tmux.md)
+  - Neovim
+    - [简介](software/neovim/index.md)
+    - [基本使用](software/neovim/basic-use.md)
     - 插件
-      - [markdown-preview.nvim](software/vim/plugins/markdown-preview.nvim.md)
-      - [vim-commentary](software/vim/plugins/vim-commentary.md)
-      - [vimtex](software/vim/plugins/vimtex.md)
-      
+      - [Markdown](software/neovim/plugins/markdown.md)
+      - [(La)Tex](software/neovim/plugins/tex.md)
+      - [Git](software/neovim/plugins/git.md)
+      - [导航相关](software/neovim/plugins/navigation.md)
+      - [终端](software/neovim/plugins/terminal.md)
+      - [Code 相关](software/neovim/plugins/code-related.md)
+      - [LSP](software/neovim/plugins/lsp.md)
+      - [Bug](software/neovim/plugins/bug.md)
+  - gdb
+    - [基础](software/gdb/basic.md)
+  - [fzf](software/fzf.md)
+  - [Ranger](software/ranger.md)
+  - [Zathura](software/zathura.md)
+  - Git
+    - [简介](software/git/index.md)
+    - [文件](software/git/file.md)
+    - [gitignore](software/git/gitignore.md)
+    - [代理](software/git/proxy.md)
+    - [标签](software/git/tag.md)
+    - [版本控制](software/git/version.md)
+    - [分支](software/git/branch.md)
+    - [diff](software/git/diff.md)
+    - [配置](software/git/config.md)
+    - [远程](software/git/remote.md)
+- 其他笔记
+  - Linux（todo）
+  - Latex
+    - [简介](other-note/latex/index.md)
+    - [安装](other-note/latex/installation.md)
+    - [基础](other-note/latex/conception.md)
+    - [宏包](other-note/latex/package.md)
+  - Github
+    - [git.io](other-note/github/git-io.md)
+    - [Github Action](other-note/github/action.md)

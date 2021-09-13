@@ -1,4 +1,4 @@
-# WSl 与 Win10 交互
+# WSL 与 Win10 交互
 
 ## 环境变量
 
@@ -12,7 +12,7 @@ WSL 中可以直接使用 Win 的环境变量，例如可执行程序。
 explorer.exe [path]
 ```
 
-2. 用 vscode 打开
+2. Win 用 vscode 打开 WSL 文件
 
 ```bash
 code [path]
@@ -92,7 +92,7 @@ netsh interface portproxy show all
 
 由于个人的主机是局域网的，所以要进行广域网访问，必须进行进行内网穿透。
 
-例如可以使用 `frp`，只需要在 Win10 安装 `frpc`，然后在 `frpc.ini`中的 `local_ip` 填写 WSL 的 IP，`local_port` 填写你想要的 WSL 端口即可。
+例如可以使用 `frp`，在公共服务器部署 `frps`，然后在 Win10 安装 `frpc`，然后在 `frpc.ini`中的 `local_ip` 填写 WSL 的 IP，`local_port` 填写你想要的 WSL 端口即可。
 
 ### 参考资料
 

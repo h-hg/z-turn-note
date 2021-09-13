@@ -1,5 +1,7 @@
 # Scoop
 
+[Scoop](https://scoop.sh/) 是 Windows 上的一款开源包管理器，主要基于 Powershell。
+
 ## 自定义安装
 
 设置 User 级别的安装路径
